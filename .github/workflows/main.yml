@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://class-2-rose.surge.sh/ --token "c4d218c950ad8a9e8013a45ffc15fda3"
+      run: surge ./build https://class-bath.surge.sh/ --token "c4d218c950ad8a9e8013a45ffc15fda3"
